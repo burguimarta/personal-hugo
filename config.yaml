@@ -1,0 +1,312 @@
+baseURL: https://burguimarta.dev/
+languageCode: es
+title: Marta Torres Burguillo
+theme: hugo-profile
+
+# Paginate: 3
+# disqusShortname: gurusabarish
+# googleAnalytics: G-DWJJVE27WD
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# Menus:
+#   main:
+    # - identifier: blog
+    #   name: Blog
+    #   title: Blog posts
+    #   url: /blogs
+    #   weight: 1
+
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 2
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Marta Torres Burguillo"
+  description: This is a cool little space.
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/fav.png"
+
+  theme:
+    disableThemeToggle: false
+    # defaultTheme: "light" # dark
+
+  # font:
+  #   fontSize: 1.5rem # default: 1rem
+  #   fontWeight: 500 # default: 400
+  #   lineHeight: 1 # default: 1.5
+  #   textAlign: right # default: left
+
+  # color preference
+  # color:
+  #   textColor:
+  #   secondaryTextColor:
+  #   backgroundColor:
+  #   secondaryBackgroundColor:
+  #   primaryColor:
+  #   secondaryColor:
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  # navbar:
+  #   align: mx-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+  #   brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+  #   brandName: "Profile" # Brand name for the brand | default is the title variable
+
+  #   menus:
+  #     disableAbout: true
+  #     disableExperience: true
+  #     disableEducation: true
+  #     disableProjects: true
+  #     disableAchievements: true
+  #     disableContact: true
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi! My name is"
+    title: "Marta Torres Burguillo"
+    subtitle: "𝙁𝙧𝙤𝙣𝙩-𝙚𝙣𝙙 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧"
+    content: "Adalaber - HTML5 | CSS3, Flexbox, Grid, SASS | JavaScript | React ES6 | Node JS, Express JS, SQL | Git (GitHub) | Agile & SCRUM | VSC Gulp | NPM"
+    image: /images/hero.svg
+    button:
+      enable: true
+      name: "Contact"
+      url: "#contact"
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/burguimarta
+        - icon: fab fa-twitter
+          url: https://twitter.com/burguimarta
+        - icon: fab fa-linkedin
+          url: https://linkedin.com/in/https://www.linkedin.com/in/marta-torres-burguillo
+      # customIcons:
+      #   - icon: /fav.png
+      #     url: "https://example.com"
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/me.png"
+    content: |-
+      I have just finished the Adalab Bootcamp for Full Stack development. During these three months of intensive work, I have demonstrated my desire to learn and my commitment to my responsibilities.My current goal is to continue improving and increasing my knowledge in web development. So, I am excited to be able to apply my knowledge in my next job.
+    skills:
+      enable: true
+      title: "Here are a few technologies I've been working with recently:"
+      items:
+        - "HTML"
+        - "CSS"
+        - "JavaScript"
+        - "React"
+        - "Node"
+        - "Express"
+        - "Flexbox"
+        - "Grid"
+        - "SASS"
+        - "SQL"
+        - "Git"
+        - "GitHub"
+        - "Agile"
+        - "SCRUM"
+
+  # Experience
+  experience:
+    enable: true
+    items:
+      - job: "Intensive front-end development course student"
+        company: "Adalab"
+        # companyUrl: "https://example.com"
+        date: "02-22 - 06-22"
+        # featuredLink:
+        #   enable: true
+        #   name: "View the project"
+        #   url: "https://example.com"
+        # content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+
+      - job: "Manager"
+        company: "ECI"
+        # companyUrl: "https://example.com"
+        date: "01-17 - 08-19"
+        # featuredLink:
+        #   enable: true
+        #   url: "https://example.com"
+        # info:
+        #   enable: true
+        #   content: I worked as a software developer for more than one year in Amazon.
+        # content: |
+        #   I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+        #   - Lead backend developer for a product.
+        #   - Created a frontend design for a product.
+      - job: "Designer & CEO"
+        company: "Douceme"
+        # companyUrl: "https://example.com"
+        date: "01-14 - 12-17"
+      - job: "Fashion designer"
+        company: "Incysa"
+        # companyUrl: "https://example.com"
+        date: "01-13 - 08-13"
+
+  # Education
+  education:
+    enable: true
+    # index: true
+    items:
+      - title: "Frontend programming Bootcamp"
+        school:
+          name: "Adalab"
+          # url: "https://example.org"
+        date: "02/22 - 06/22"
+        # GPA: "3.8 out of 5.0"
+        content: |-
+          During this Bootcamp I have developed and/or participated in more than 15 developments with technologies practicing:
+
+            - Layout: HTML5, CSS3, Flexbox, CSS Grid, responsive design, SASS, Bootstrap.
+            - JavaScript (ES6) and third-party web services (APIs).
+            - Version control with Git
+            - Creation of simple SPAs with React
+            - Basic knowledge of APIs and backend programming: applications with Node JS, Express and SQL.
+            - Handling of Slack, GitHub, VS Code, Gulp, Terminal, Linter, Zeplin
+            - Experience in project development using Agile philosophy and Scrum framework
+      - title: "Social work degree"
+        school:
+          name: "UNED"
+          # url: "https://example.org"
+        date: "09/16 - Currently"
+        # GPA: "3.9 out of 5.0"
+        # content: |-
+        #   I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
+        #   - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
+        #   - Face mask detection using a single convolutional neural network.
+        #   Extracurricular Activities
+        #     - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        #     - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+        # featuredLink:
+        #   enable: true
+        #   name: "My academic record"
+        #   url: "https://example.com"
+      - title: "Degree in fashion design"
+        school:
+          name: "Universidad Camilo José Cela"
+        date: "09/07 - 07/10"
+          # url: "https://example.org"
+        # GPA: "4.2 out of 5.0"
+        # featuredLink:
+        #   enable: true
+        #   url: "https://example.com"
+      - title: "Biology degree"
+        school:
+          name: "Universidad Complutense"
+        date: "10/04 - 06/09"
+
+  # Achievements
+  # achievements:
+  #   enable: true
+  #   items:
+  #     - title: Google kickstart runner
+  #       content: I solved all problems with optimal solution.
+  #       url: https://example.com
+  #     - title: Facebook Hackathon Winner
+  #       content: Developed a product using Artificial Intelligence.
+  #     - title: Hugo Profile
+  #       content: Developed a theme and getting 1K+ downloads per month.
+  #       url: "https://github.com/gurusabarish/hugo-profile"
+  #     - title: Microsoft Imagine Runner
+  #       content: We are developed a product which can help others.
+  #     - title: Google Summer of Code
+  #       content: Contributed to a open source project.
+  #       url: https://example.com
+
+  # projects
+  projects:
+    enable: true
+    items:
+      - title: WOW owen project
+        content: Search engine for the "WOW" phrases that actor Owen Wilson says in each of his movies.
+        image: /images/projects/profile.png
+        # featured:
+        #   name: Demo
+        #   link: https://hugo-profile.netlify.app
+        # badges:
+        #   - "Hugo"
+        #   - "Bootstrap"
+        #   - "Javascript"
+        links:
+          # - icon: fa fa-envelope
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/burguimarta/Wow-Owen-project
+          # - icon: fab fa-twitter
+          #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
+      - title: Refactoring of legacy
+        content:  Refactoring of legacy JavaScript code and migration to React JS.
+        image: /images/projects/profile.png
+        links:
+          - icon: fab fa-github
+            url: https://github.com/burguimarta/proyecto-heredado
+      - title: Beach coktails
+        content:  Cocktail finder made with JavaScript and mapped with HTML, SASS and BEM.
+        image: /images/projects/profile.png
+        links:
+          - icon: fab fa-github
+            url: https://github.com/burguimarta/beach-cocktails-project
+      - title: Nice cards
+        content:  Creation of personalized business cards, in which you choose colors and photo.
+        image: /images/projects/profile.png
+        links:
+          - icon: fab fa-github
+            url: https://github.com/burguimarta/nice-cards
+      - title: Open spaces project
+        content:  Responsive Web (mobile first) with HTML, CSS & SASS, animations and transitions and BEM.
+        image: /images/projects/profile.png
+        links:
+          - icon: fab fa-github
+            url: https://github.com/burguimarta/Open-Spaces-project
+      - title: Start project
+        content:  Responsive Web (mobile first) with HTML, CSS & SASS, animations and transitions and BEM.
+        image: /images/projects/profile.png
+        links:
+          - icon: fab fa-github
+            url: https://github.com/burguimarta/proyecto-de-presentacion
+
+  #Contact
+  contact:
+    enable: true
+    content: I am happy to help, listen to job and project offers, or just read a greeting. Thanks for your time!
+    email: martatcr@gmail.com
+    btnName: Contact me
+
+  footer:
+    # recentPosts: false
+    socialNetworks:
+      github: https://github.com/burguimarta
+      linkedin: https://linkedin.com/in/https://www.linkedin.com/in/marta-torres-burguillo
+      twitter: https://twitter.com/burguimarta
+      # instagram: https://instagram.com
+      # facebook: https://facebook.com
