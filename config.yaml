@@ -92,7 +92,7 @@ params:
     title: "Marta Torres Burguillo"
     subtitle: "𝙁𝙧𝙤𝙣𝙩-𝙚𝙣𝙙 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧"
     content: "Adalaber - HTML5 | CSS3, Flexbox, Grid, SASS | JavaScript | React ES6 | Node JS, Express JS, SQL | Git (GitHub) | Agile & SCRUM | VSC Gulp | NPM"
-    image: /images/hero.svg
+    image: /images/projects/marta.png
     button:
       enable: true
       name: "Contact"
@@ -213,7 +213,7 @@ params:
       - title: "Degree in fashion design"
         school:
           name: "Universidad Camilo José Cela"
-        date: "09/07 - 07/10"
+        date: "07/10"
           # url: "https://example.org"
         # GPA: "4.2 out of 5.0"
         # featuredLink:
@@ -222,7 +222,7 @@ params:
       - title: "Biology degree"
         school:
           name: "Universidad Complutense"
-        date: "10/04 - 06/09"
+        date: "06/09"
 
   # Achievements
   # achievements:
@@ -248,7 +248,7 @@ params:
     items:
       - title: WOW owen project
         content: Search engine for the "WOW" phrases that actor Owen Wilson says in each of his movies.
-        image: /images/projects/profile.png
+        image: /images/projects/PageWowSmall.jpg
         # featured:
         #   name: Demo
         #   link: https://hugo-profile.netlify.app
@@ -266,31 +266,31 @@ params:
 
       - title: Refactoring of legacy
         content:  Refactoring of legacy JavaScript code and migration to React JS.
-        image: /images/projects/profile.png
+        image: /images/projects/proyectoHeredado.jpg
         links:
           - icon: fab fa-github
             url: https://github.com/burguimarta/proyecto-heredado
       - title: Beach coktails
         content:  Cocktail finder made with JavaScript and mapped with HTML, SASS and BEM.
-        image: /images/projects/profile.png
+        image: /images/projects/Cocteles.jpg
         links:
           - icon: fab fa-github
             url: https://github.com/burguimarta/beach-cocktails-project
       - title: Nice cards
         content:  Creation of personalized business cards, in which you choose colors and photo.
-        image: /images/projects/profile.png
+        image: /images/projects/NiceCards.jpg
         links:
           - icon: fab fa-github
             url: https://github.com/burguimarta/nice-cards
       - title: Open spaces project
         content:  Responsive Web (mobile first) with HTML, CSS & SASS, animations and transitions and BEM.
-        image: /images/projects/profile.png
+        image: /images/projects/OpenSpaces.jpg
         links:
           - icon: fab fa-github
             url: https://github.com/burguimarta/Open-Spaces-project
       - title: Start project
         content:  Responsive Web (mobile first) with HTML, CSS & SASS, animations and transitions and BEM.
-        image: /images/projects/profile.png
+        image: /images/projects/StartProject.jpg
         links:
           - icon: fab fa-github
             url: https://github.com/burguimarta/proyecto-de-presentacion
@@ -306,7 +306,7 @@ params:
     # recentPosts: false
     socialNetworks:
       github: https://github.com/burguimarta
-      linkedin: https://linkedin.com/in/https://www.linkedin.com/in/marta-torres-burguillo
+      linkedin: https://www.linkedin.com/in/marta-torres-burguillo
       twitter: https://twitter.com/burguimarta
       # instagram: https://instagram.com
       # facebook: https://facebook.com
