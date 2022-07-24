@@ -42,7 +42,10 @@ params:
   title: "Marta Torres Burguillo"
   description: This is a cool little space.
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "images/fav.png"
+
+  customcss:
+    - "style.css"
 
   theme:
     disableThemeToggle: false
@@ -92,7 +95,7 @@ params:
     title: "Marta Torres Burguillo"
     subtitle: "𝙁𝙧𝙤𝙣𝙩-𝙚𝙣𝙙 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧"
     content: "Adalaber - HTML5 | CSS3, Flexbox, Grid, SASS | JavaScript | React ES6 | Node JS, Express JS, SQL | Git (GitHub) | Agile & SCRUM | VSC Gulp | NPM"
-    image: /images/projects/marta.png
+    image: /images/marta.png
     button:
       enable: true
       name: "Contact"
@@ -113,7 +116,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/woman.png"
     content: |-
       I have just finished the Adalab Bootcamp for Full Stack development. During these three months of intensive work, I have demonstrated my desire to learn and my commitment to my responsibilities.My current goal is to continue improving and increasing my knowledge in web development. So, I am excited to be able to apply my knowledge in my next job.
     skills:
@@ -219,7 +222,7 @@ params:
         # featuredLink:
         #   enable: true
         #   url: "https://example.com"
-      - title: "Biology degree"
+      - title: "Biology bachelor's degree"
         school:
           name: "Universidad Complutense"
         date: "06/09"
